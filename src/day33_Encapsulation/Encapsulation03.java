@@ -31,9 +31,9 @@ public class Encapsulation03 {
         // 2 - Herkes okuyabilsin ama kimse obje uzerinden de olsa değiştiremesin Private ==> Public get();
         // 3 - İlk atadığım değeri kimse goremesin Private ==> Public set ()
     }
-}
+
 
 
 	}
 
-}
+

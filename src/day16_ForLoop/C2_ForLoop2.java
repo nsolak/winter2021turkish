@@ -22,7 +22,7 @@ public class C2_ForLoop2 {
     	   
     	   
     	   
-	   } else {// sayi<=sayi2
+	   } else {// sayi1<=sayi2
 
              for(int i = sayi1; i <= sayi2; i++) {
     		   

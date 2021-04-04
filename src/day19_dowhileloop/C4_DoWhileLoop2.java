@@ -22,8 +22,10 @@ public class C4_DoWhileLoop2 {
 		    int toplamPoz=0;
 		    int sayi=1;
 		    
-	 do {
+	
 		 System.out.println("Oyuna hoþgeldiniz,bitirmek istediginizde 0' a basin");
+		 
+		 do {
 		 System.out.println("Lutfen pozitif bir sayi giriniz");   	
 		  sayi= scan.nextInt();
 		  
@@ -31,7 +33,8 @@ public class C4_DoWhileLoop2 {
 			countPoz++;
 			toplamPoz+=sayi;
 			
-		} else if(sayi<0){
+		} 
+		  if(sayi<0){
           countNeg++;
           System.out.println("Negatif sayi giremezsiniz");
 		}

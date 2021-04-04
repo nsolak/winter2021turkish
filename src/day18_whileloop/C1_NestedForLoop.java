@@ -20,9 +20,9 @@ public class C1_NestedForLoop {
 		int rakam= scan.nextInt();
 		
 		for (int i = 1; i <= rakam; i++ ) {
-			
-			for (int j = 1; j <= rakam; j++) {
-				System.out.print(i*j+" ");
+			                                  
+			for (int j = 1; j <= rakam; j++) {//1*1  1*2  1*3
+				System.out.print(i*j+" ");    //2*1  2*2  2*3 boyle devam edicek
 			}
 			   System.out.println("");
 		}

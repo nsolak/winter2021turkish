@@ -17,11 +17,12 @@ public class C2_Flag {
 		int index=0;
 		
 		while(index<cumle.length()) {
-			if(cumle.charAt(index)>="A" && cumle.charAt(index)<="Z") {
-				flag="var"
+			if(cumle.charAt(index)>='A' && cumle.charAt(index)<='Z') {
+				flag="var";
 			}
+			index++;
 		}
-		
+		System.out.println("verdiginiz cumlede buyuk harf" + flag);
 		
 		
 		
